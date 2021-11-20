@@ -1,19 +1,6 @@
 /* Color Variables */
-root {
---color-grey: #758283;
---color-Polereus: #38b2c3;
---color-Pink:#f393bb;
---color-white:#ffffff;
---color-black:#000000;
-}
+
 
 body{
-    background-color: var(--color-grey);
-
-}
-
-
-
-h1{
-    
+    font-size: 200rem;
 }
