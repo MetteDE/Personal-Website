@@ -16,33 +16,9 @@ body{
    background-size: cover;
 }
 
-.intro{
-    margin-top: 5%;
-    margin-left: 5%;
-    font-size: 8rem;
-    color: #729b95;
-    width: 1000px;
-}
-
-.description{
-    margin-top: 0%;
-    margin-left: 5.5%;
-    font-size: 1.25rem;
-    color: #729b95;
-    width: 1000px;
-}
-
-.Name{
-    color: white;
-    font-size: 10.25rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing: 0.25rem;
-}
-
 .coming-soon{
     color: white;
-    text-align: right;
+    text-align: center; 
+    margin-top: 10%;
     font-size: 8rem;
-    margin-top: -15%;
-    margin-right: 10%;
 }
