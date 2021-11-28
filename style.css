@@ -1,8 +1,14 @@
 /*Imports */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+San1s+Pro&display=swap');
 
-
+:root{
+    --main-font-color: #51a8b6;
+    --second-font-color: #FFFFFF;
+    --grey-color:#9fbcc1;
+    --dark-color: #363e3f;
+    --main-font-family:'Source Sans Pro', sans-serif;
+}
 
 
 *{
@@ -19,11 +25,22 @@ body {
     background-size: cover;
     height: 100%;
     overflow: hidden;
+    color: var(--second-font-color);
 }
 
-.coming-soon{
-    color: white;
-    text-align: center; 
-    margin-top: 10%;
-    font-size: 8rem;
+
+ .intro{
+    color: var(--grey-color);
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin-top: 5%;
 }
+.intro h2{
+    color: var(--main-font-color);
+
+}
+
+
+
+
