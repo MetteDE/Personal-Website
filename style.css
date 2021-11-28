@@ -38,7 +38,10 @@ body {
 }
 .intro h2{
     color: var(--main-font-color);
-
+    font-size:4rem;
+    letter-spacing: 0.025em;
+    display:inline-block;
+    
 }
 
 
