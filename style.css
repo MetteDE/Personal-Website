@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+San1s+Pro&display=swap');
 
 :root{
-    --main-font-color: #51a8b6;
+    --main-font-color: #468e99;
     --second-font-color: #FFFFFF;
     --grey-color:#9fbcc1;
     --dark-color: #363e3f;
@@ -30,7 +30,7 @@ body {
 
 
  .intro{
-    color: var(--grey-color);
+    color: var(--second-font-color);
     font-size: 4rem;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif; 
@@ -41,9 +41,11 @@ body {
     font-size:4rem;
     letter-spacing: 0.025em;
     display:inline-block;
-    
 }
-
+.description{
+    text-align: center;
+    color: var(--main-font-color);
+}
 
 
 
