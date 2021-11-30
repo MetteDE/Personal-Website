@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+San1s+Pro&display=swap');
 
 :root{
-    --main-font-color: #468e99;
+    --main-font-color-light: #4baebd;
+    --main-font-color-dark: #468e99;
     --second-font-color: #FFFFFF;
     --grey-color:#9fbcc1;
     --dark-color: #363e3f;
@@ -27,7 +28,13 @@ body {
     overflow: hidden;
     color: var(--second-font-color);
 }
-
+/* Hey, it's*/
+.intro h2{
+    color: var(--main-font-color-light);
+    font-size:4rem;
+    letter-spacing: 0.025em;
+    display:inline-block;
+}
 
  .intro{
     color: var(--second-font-color);
@@ -36,15 +43,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif; 
     margin-top: 5%;
 }
-.intro h2{
-    color: var(--main-font-color);
-    font-size:4rem;
-    letter-spacing: 0.025em;
-    display:inline-block;
-}
+
 .description{
     text-align: center;
-    color: var(--main-font-color);
+    color: var(--main-font-color-light);
+    
 }
 
 
