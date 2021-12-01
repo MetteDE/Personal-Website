@@ -47,8 +47,18 @@ body {
 .description{
     text-align: center;
     color: var(--main-font-color-light);
-    
+    font-size: 1.3rem;    
 }
 
+.animated-fade-text{
+    animation: fade 0.5s ease-in;
+}
 
-
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to { 
+        opacity: 1;
+    }
+}
