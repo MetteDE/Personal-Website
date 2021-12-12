@@ -28,20 +28,20 @@ body {
     overflow: hidden;
     color: var(--second-font-color);
 }
-/* Hey, it's*/
+.intro{
+    color: var(--second-font-color);
+    font-size: 4rem;
+    text-align: center;
+    margin-right: 60%;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin-top: 2.5%;
+}
+
 .intro h2{
     color: var(--main-font-color-light);
     font-size:4rem;
     letter-spacing: 0.025em;
     display:inline-block;
-}
-
- .intro{
-    color: var(--second-font-color);
-    font-size: 4rem;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif; 
-    margin-top: 5%;
 }
 
 .description{
