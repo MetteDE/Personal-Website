@@ -33,13 +33,15 @@ body {
     font-size: 4rem;
     text-align: center;
     margin-right: 60%;
+    margin-left: 2.5%;
+    min-width: auto;
     font-family: 'Source Sans Pro', sans-serif; 
     margin-top: 2.5%;
 }
 
 .intro h2{
     color: var(--main-font-color-light);
-    font-size:4rem;
+    font-size:3rem;
     letter-spacing: 0.025em;
     display:inline-block;
 }
