@@ -1,66 +1,109 @@
-/*Imports */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+San1s+Pro&display=swap');
 
-:root{
-    --main-font-color-light: #4baebd;
-    --main-font-color-dark: #468e99;
-    --second-font-color: #FFFFFF;
-    --grey-color:#9fbcc1;
-    --dark-color: #363e3f;
-    --main-font-family:'Source Sans Pro', sans-serif;
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.text{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12rem;
+  text-align: center;
+  letter-spacing: 14px;
+}
+
+.text::before,.text::after{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.text::before{
+  color: #a11301;
+  animation: glitch-effect 3s infinite;
+}
+
+.text::after{
+  color: #2a2928;
+  animation: glitch-effect 2s infinite;
+}
+
+@keyframes glitch-effect {
+  0%{
+    left: -3px;
+    top: -2px;
+  }
+  25%{
+    left: 4px;
+    top: 0px;
+  }
+  50%{
+    left: -3px;
+    top: 2px;
+  }
+  75%{
+    left: 5px;
+    top: -1px;
+  }
+  100%{
+    left: 0px;
+    top: -2px;
+  }
 }
 
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-body {
-    background: url('assets/background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-    color: var(--second-font-color);
-}
-.intro{
-    color: var(--second-font-color);
-    font-size: 4rem;
-    text-align: center;
-    margin-right: 60%;
-    margin-left: 2.5%;
-    min-width: auto;
-    font-family: 'Source Sans Pro', sans-serif; 
-    margin-top: 2.5%;
-}
-
-.intro h2{
-    color: var(--main-font-color-light);
-    font-size:2.5rem;
-    letter-spacing: 0.025em;
-    display:inline-block;
-}
-
-.description{
-    text-align: center;
-    color: var(--main-font-color-light);
-    font-size: 1.3rem;    
-}
-
-.animated-fade-text{
-    animation: fade 0.5s ease-in;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0;
-    }
-    to { 
-        opacity: 1;
-    }
-}
