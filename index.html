@@ -11,7 +11,7 @@
 <body>
  
 <button id="toggle" onclick="toggleMute();">
-    Muted
+    unmute
 </button>
 
 
@@ -37,10 +37,10 @@ var video=document.getElementById("myVideo")
 
 if(video.muted){
 	video.muted = false;
-  document.getElementById("toggle").innerHTML = "Mute"
+  document.getElementById("toggle").innerHTML = "mute"
 } else {
   video.muted = true;
-  document.getElementById("toggle").innerHTML = "Unmute"
+  document.getElementById("toggle").innerHTML = "unmute"
 }
 
 }
