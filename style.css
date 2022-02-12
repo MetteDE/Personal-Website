@@ -3,9 +3,7 @@
 :root{
   --color-red: #852d2d;
 }
-body{ 
-  background-color: gray;
-}
+
 .middle{
   position: absolute;
   top: 50%;
@@ -16,9 +14,8 @@ body{
 .text{
   color: #fff;
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 10vh;
   text-align: center;
-  letter-spacing: 10px;
   position: absolute;
   font-family: 'Tangerine', cursive;
   font-weight: bolder;
