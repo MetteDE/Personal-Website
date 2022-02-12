@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
-
+:root{
+  --color-red: #852d2d;
+}
 
 .middle{
   position: absolute;
@@ -17,8 +19,32 @@
   letter-spacing: 10px;
   position: absolute;
   font-family: 'Tangerine', cursive;
-  font-weight: 700;
+  font-weight: bolder;
+  -webkit-animation: Glow 1s ease-in-out infinite alternate;
+  -moz-animation: Glow 1s ease-in-out infinite alternate;
+  animation: Glow 2s infinite alternate SeaseInOutQuad;
 }
+
+  @keyframes Glow {
+    0% {
+      text-shadow: 0 0 10px var(--color-red),
+                   0 0 20px var(--color-red),
+                   0 0 40px  var(--color-red),
+                   0 0 60px  var(--color-red),
+                   0 0 100px var(--color-red),
+                   0 0 200px var(--color-red);
+    }
+    100% {
+      text-shadow: 0 0 2px var(--color-red),
+                   0 0 8px var(--color-red),
+                   0 0 10px var(--color-red),
+                   0 0 30px var(--color-red),
+                   0 0 50px var(--color-red),
+                   0 0 80px var(--color-red);
+                  
+}}
+
+
 button{
   text-align: center;
   align-items: center;
