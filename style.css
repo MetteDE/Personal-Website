@@ -3,7 +3,9 @@
 :root{
   --color-red: #852d2d;
 }
-
+body{ 
+  background-color: gray;
+}
 .middle{
   position: absolute;
   top: 50%;
