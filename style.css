@@ -20,8 +20,8 @@
   position: absolute;
   font-family: 'Tangerine', cursive;
   font-weight: bolder;
-  -webkit-animation: Glow 1s ease-in-out infinite alternate;
-  -moz-animation: Glow 1s ease-in-out infinite alternate;
+  -webkit-animation: Glow 2s ease-in-out infinite alternate;
+  -moz-animation: Glow 2s ease-in-out infinite alternate;
   animation: Glow 2s infinite alternate SeaseInOutQuad;
 }
 
