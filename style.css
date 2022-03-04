@@ -21,6 +21,7 @@ body{
   position: absolute;
   font-family: 'Tangerine', cursive;
   font-weight: bolder;
+  text-shadow: 2px 2px var(--color-red);
 }
 
   /*@keyframes Glow {
