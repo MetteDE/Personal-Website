@@ -14,34 +14,54 @@ body{
 }
 
 .text{
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   font-size: 10vh;
   text-align: center;
   position: absolute;
+  letter-spacing: 0.4vh;
   font-family: 'Tangerine', cursive;
   font-weight: bolder;
-  text-shadow: 2px 2px var(--color-red);
+  animation-name: glow;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
-  /*@keyframes Glow {
-    0% {
-      text-shadow: 0 0 10px var(--color-red),
-                   0 0 20px var(--color-red),
-                   0 0 40px  var(--color-red),
-                   0 0 60px  var(--color-red),
-                   0 0 100px var(--color-red),
-                   0 0 200px var(--color-red);
-    }
-    100% {
-      text-shadow: 0 0 2px var(--color-red),
-                   0 0 8px var(--color-red),
-                   0 0 10px var(--color-red),
-                   0 0 30px var(--color-red),
-                   0 0 50px var(--color-red),
-                   0 0 80px var(--color-red);
-                  
-}}*/
+  @keyframes glow{
+  from {
+    text-shadow:0 0 0.7vh var(--color-red), 
+                0 0 1.4vh var(--color-red), 
+                0 0 2.1vh var(--color-red), 
+                0 0 2.8vh var(--color-red), 
+                0 0 3.5vh var(--color-red)       
+  }
+  to {
+    text-shadow:0 0 1.4vh var(--color-red), 
+                0 0 2.1vh var(--color-red), 
+                0 0 2.8vh var(--color-red), 
+                0 0 3.5vh var(--color-red)
+          
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 button{
   text-align: center;
@@ -67,3 +87,4 @@ button{
   min-width: 100%;
   min-height: 100%;
 }
+
