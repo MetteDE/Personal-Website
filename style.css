@@ -21,12 +21,9 @@ body{
   position: absolute;
   font-family: 'Tangerine', cursive;
   font-weight: bolder;
-  -webkit-animation: Glow 2s ease-in-out infinite alternate;
-  -moz-animation: Glow 2s ease-in-out infinite alternate;
-  animation: Glow 2s infinite alternate SeaseInOutQuad;
 }
 
-  @keyframes Glow {
+  /*@keyframes Glow {
     0% {
       text-shadow: 0 0 10px var(--color-red),
                    0 0 20px var(--color-red),
@@ -43,8 +40,7 @@ body{
                    0 0 50px var(--color-red),
                    0 0 80px var(--color-red);
                   
-}}
-
+}}*/
 
 button{
   text-align: center;
