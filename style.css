@@ -22,6 +22,7 @@ body{
   letter-spacing: 0.4vh;
   font-family: 'Tangerine', cursive;
   font-weight: bolder;
+  
   animation-name: glow;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
@@ -33,12 +34,12 @@ body{
 
   @keyframes glow{
   from {
-    text-shadow:0 0 1.4vh var(--color-red), 
-                0 0 3.5vh var(--color-red)       
+    text-shadow:0 0 0.5vh var(--color-red), 
+                0 0 1vh var(--color-red)       
   }
   to {
-    text-shadow:0 0 1.4vh var(--color-red), 
-                0 0 3.5vh var(--color-red)
+    text-shadow:0 0 0.5vh var(--color-red), 
+                0 0 1vh var(--color-red)
           
   }
 }
