@@ -1,4 +1,4 @@
-<h1>Welcome to the Readme for my own personal</h1>
+<h1>Welcome to the Readme for my own personal Website</h1>
 
 <h2>WORK IN PROGRESS</h2>
 
