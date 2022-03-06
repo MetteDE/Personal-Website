@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
+  <!--  preview stuff -->
+  <title> Mette</title>
+  <meta name="description" content="Mette's personal Website">
+  <meta property=”og:title” content=”Mette”>
+  <meta property=”og:description” content="Mette's personal Website">
+  <meta property=”og:url” content="https://mette.tech/">
+  <meta property=”og:image” content="https://cdn.discordapp.com/avatars/289845084273246219/a_c12fd338bd61c5e9c011103bec93b7ad.gif?size=1024"  />
+
+  <!--- linking files and othere sources ----> 
+  <script src="utility.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png"/>
+
+  <!-- default meta data -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="assets/favicon.png"/>
-  <script src="utility.js"></script>
-  <title>Mette</title>
 </head>
 
 <body>
 
-  SkrSkr
-
+<!--  toggle button -->
 <button id="toggle" onclick="toggleMute();">
     unmute
 </button>
 
-<div class="text middle" data-text="Mette">
-    
+<!--  name -->
+<div class="text" >
   Mette
-  
 </div>
 
-<video onloadstart="videoStarts()" onended="videoEnds()" autoplay muted playsinline id="myVideo">
+<!--  background video -->
+<video onloadstart="videoStarts()" onended="videoEnds()" autoplay muted playsinline loop id="myVideo">
   <source src="assets/Akame.mp4" type="video/mp4">
 </video>
-
-
 
 
 

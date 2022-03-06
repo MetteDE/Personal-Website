@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
 :root{
-  --color-red: #852d2d;
+  --color-red: #770000;
 }
 body{
   background-color: black;
 }
+
+
 .middle{
   position: absolute;
   top: 50%;
@@ -14,6 +16,7 @@ body{
 }
 
 .text{
+  /* text appearance */
   color: white;
   text-transform: uppercase;
   font-size: 10vh;
@@ -22,27 +25,14 @@ body{
   letter-spacing: 0.4vh;
   font-family: 'Tangerine', cursive;
   font-weight: bolder;
+  text-shadow: 0 0 6px var(--color-red), 0 0 6px var(--color-red), 0 0 6px var(--color-red), 0 0 6px var(--color-red);
   
-  animation-name: glow;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-  @keyframes glow{
-  from {
-    text-shadow:0 0 0.5vh var(--color-red), 
-                0 0 1vh var(--color-red)       
-  }
-  to {
-    text-shadow:0 0 0.5vh var(--color-red), 
-                0 0 1vh var(--color-red)
-          
-  }
-}
+  /* position */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+} 
 
 button{
   text-align: center;
@@ -52,6 +42,7 @@ button{
   color: white;
   border: none;
   text-align: center;
+  margin-left: -15px;
 }
 
 #myVideo {
