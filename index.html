@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="assets/favicon.png"/>
+  <script src="utility.js"></script>
   <title>Mette</title>
 </head>
 
 <body>
 
+  SkrSkr
 
 <button id="toggle" onclick="toggleMute();">
     unmute
@@ -22,27 +24,13 @@
   
 </div>
 
-<video onloadstart="this.volume=0.2" autoplay loop muted playsinline id="myVideo">
+<video onloadstart="videoStarts()" onended="videoEnds()" autoplay muted playsinline id="myVideo">
   <source src="assets/Akame.mp4" type="video/mp4">
 </video>
 
-<script> 
-function toggleMute() {
-
-var video=document.getElementById("myVideo")
-
-if(video.muted){
-	video.muted = false;
-  document.getElementById("toggle").innerHTML = "mute"
-} else {
-  video.muted = true;
-  document.getElementById("toggle").innerHTML = "unmute"
-}
-document.addEventListener('contextmenu', event => event.preventDefault());
 
 
-}
-</script>
+
 
 </body>
 </html>
