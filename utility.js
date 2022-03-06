@@ -31,9 +31,5 @@ function videoEnds() {
   document.oncontextmenu = function() {
     return true;
   }
-
-
-  // testing //
-  //document.body.style.backgroundColor = "white";
 } 
-//
+
