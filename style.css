@@ -34,16 +34,18 @@ body{
   transform: translate(-50%,-50%); 
 } 
 
-button{
+button {
   text-align: center;
   align-items: center;
   background: none;
   width: 5vw;
   color: white;
+  
   border: none;
   text-align: center;
   margin-left: -15px;
 }
+
 
 #myVideo {
   position: absolute;
