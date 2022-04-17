@@ -5,11 +5,11 @@ function toggleMute() {
   var img = document.getElementById("symbol")
   if(video.muted){
     video.muted = false;
-    img.src = "https://img.icons8.com/ios-filled/50/000000/no-audio--v1.png"
+    img.src = "https://img.icons8.com/ios-filled/50/000000/no-audio--v2.png"
   } 
   else {
     video.muted = true;
-    img.src = "https://img.icons8.com/ios-filled/50/000000/no-audio--v2.png"
+    img.src = "https://img.icons8.com/ios-filled/50/000000/mute--v1.png"
 }
 }
 // during the video //
